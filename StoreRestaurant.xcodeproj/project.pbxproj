@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		521694821F8514EA006AC1D4 /* FoodsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521694811F8514EA006AC1D4 /* FoodsTableViewController.swift */; };
+		521694841F8515C3006AC1D4 /* FoodsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521694831F8515C3006AC1D4 /* FoodsTableViewCell.swift */; };
+		521694861F8518E0006AC1D4 /* DetailsFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521694851F8518E0006AC1D4 /* DetailsFoodViewController.swift */; };
+		524EC07B1FE8FB1B00C23CAA /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524EC07A1FE8FB1B00C23CAA /* ForgotPasswordViewController.swift */; };
+		525100B81F8771AF00A5601E /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525100B71F8771AF00A5601E /* NewsViewController.swift */; };
+		525100BA1F87720700A5601E /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525100B91F87720700A5601E /* NewsTableViewCell.swift */; };
+		528164A4208DF5910017797A /* GMStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528164A3208DF5900017797A /* GMStepper.swift */; };
+		52A854082055D4190090B799 /* DTTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A854072055D4190090B799 /* DTTextField.swift */; };
+		52A910E41F99EC7600EF6BB9 /* CookingTrainingDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A910E31F99EC7600EF6BB9 /* CookingTrainingDetailsTableViewController.swift */; };
+		52AEB99B1F84F2FC00487AEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AEB99A1F84F2FC00487AEB /* AppDelegate.swift */; };
+		52AEB9A21F84F2FC00487AEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52AEB9A01F84F2FC00487AEB /* Main.storyboard */; };
+		52AEB9A41F84F2FC00487AEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52AEB9A31F84F2FC00487AEB /* Assets.xcassets */; };
+		52AEB9A71F84F2FC00487AEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52AEB9A51F84F2FC00487AEB /* LaunchScreen.storyboard */; };
+		52AEB9B01F84F3B600487AEB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52AEB9AF1F84F3B600487AEB /* MapKit.framework */; };
+		52AEB9B31F84F3FB00487AEB /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AEB9B21F84F3FB00487AEB /* HomeTableViewController.swift */; };
+		52AEB9B51F85089500487AEB /* FoodsCategoriseCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AEB9B41F85089500487AEB /* FoodsCategoriseCollectionViewController.swift */; };
+		52AEB9B91F8508D400487AEB /* FoodsCategoriseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AEB9B81F8508D400487AEB /* FoodsCategoriseCollectionViewCell.swift */; };
+		52AEC9ED1FE25B3000FC1C1C /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AEC9EC1FE25B3000FC1C1C /* SignInViewController.swift */; };
+		52B98FA41F8A0AA30020ABC9 /* DetailsNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B98FA31F8A0AA30020ABC9 /* DetailsNewsViewController.swift */; };
+		52BF21401F94A46F0034830B /* CookingTrainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BF213F1F94A46F0034830B /* CookingTrainingViewController.swift */; };
+		52BF21421F94A4950034830B /* CookingTrainingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BF21411F94A4950034830B /* CookingTrainingTableViewCell.swift */; };
+		52CCA1AA1F8577B700D72E05 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CCA1A91F8577B700D72E05 /* CartViewController.swift */; };
+		52CCA1AC1F85782600D72E05 /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CCA1AB1F85782600D72E05 /* CartTableViewCell.swift */; };
+		52CCA1AF1F857D0200D72E05 /* ProductObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CCA1AE1F857D0200D72E05 /* ProductObject.swift */; };
+		52CCA1B11F857D5000D72E05 /* CartManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CCA1B01F857D5000D72E05 /* CartManger.swift */; };
+		52CCA1B31F857D9800D72E05 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CCA1B21F857D9800D72E05 /* Constant.swift */; };
+		52DCD00E1FC0492D0010C39E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52DCD00C1FC049210010C39E /* GoogleService-Info.plist */; };
+		52DCD2F51FE6E49300CA251E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DCD2F41FE6E49300CA251E /* SignUpViewController.swift */; };
+		52E2C7BA207CF0D000B44B70 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E2C7B9207CF0D000B44B70 /* ProfileTableViewController.swift */; };
+		52F7F64B1FE65F4A000A5E21 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7F64A1FE65F4A000A5E21 /* AccountViewController.swift */; };
+		52FCD226208604FD007241E0 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FCD225208604FD007241E0 /* EditProfileViewController.swift */; };
+		52FF6BAE1FE8004B00B51FBA /* EnterCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FF6BAD1FE8004B00B51FBA /* EnterCodeViewController.swift */; };
+		9F00351520C085B100FA8642 /* CVVNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F00351420C085B100FA8642 /* CVVNumberViewController.swift */; };
+		9F183C3520BAD95200134EA0 /* AddValidCCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F183C3420BAD95200134EA0 /* AddValidCCViewController.swift */; };
+		9FA1480D20B98DCB005A9C15 /* kredit front.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FA1480C20B986A9005A9C15 /* kredit front.ttf */; };
+		9FA1480F20B994F9005A9C15 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52AEB9A81F84F2FC00487AEB /* Info.plist */; };
+		9FA1481020B99634005A9C15 /* kredit back.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FA1480E20B993AD005A9C15 /* kredit back.ttf */; };
+		9FB4F73420B6DA0A00D963F6 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB4F73320B6DA0A00D963F6 /* TabBarViewController.swift */; };
+		9FCDC368222EB3B3001750A4 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCDC367222EB3B3001750A4 /* ChangePasswordViewController.swift */; };
+		9FDD1E0520BA84FC006AA2F1 /* OCRAEXT.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 9FDD1E0420BA8333006AA2F1 /* OCRAEXT.TTF */; };
+		CDF0A6C74A9A399D9E3DECCD /* Pods_StoreRestaurant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458DB7F132E361CE55700969 /* Pods_StoreRestaurant.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2427E8E568FA32D4998C48A3 /* Pods-StoreRestaurant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoreRestaurant.release.xcconfig"; path = "Pods/Target Support Files/Pods-StoreRestaurant/Pods-StoreRestaurant.release.xcconfig"; sourceTree = "<group>"; };
+		458DB7F132E361CE55700969 /* Pods_StoreRestaurant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StoreRestaurant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		521694811F8514EA006AC1D4 /* FoodsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodsTableViewController.swift; sourceTree = "<group>"; };
+		521694831F8515C3006AC1D4 /* FoodsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodsTableViewCell.swift; sourceTree = "<group>"; };
+		521694851F8518E0006AC1D4 /* DetailsFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsFoodViewController.swift; sourceTree = "<group>"; };
+		524EC07A1FE8FB1B00C23CAA /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		525100B71F8771AF00A5601E /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		525100B91F87720700A5601E /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		528164A3208DF5900017797A /* GMStepper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMStepper.swift; sourceTree = "<group>"; };
+		52A854072055D4190090B799 /* DTTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTTextField.swift; sourceTree = "<group>"; };
+		52A910E31F99EC7600EF6BB9 /* CookingTrainingDetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingTrainingDetailsTableViewController.swift; sourceTree = "<group>"; };
+		52AEB9971F84F2FC00487AEB /* StoreRestaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoreRestaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52AEB99A1F84F2FC00487AEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52AEB9A11F84F2FC00487AEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52AEB9A31F84F2FC00487AEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52AEB9A61F84F2FC00487AEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52AEB9A81F84F2FC00487AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52AEB9AF1F84F3B600487AEB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		52AEB9B21F84F3FB00487AEB /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		52AEB9B41F85089500487AEB /* FoodsCategoriseCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodsCategoriseCollectionViewController.swift; sourceTree = "<group>"; };
+		52AEB9B81F8508D400487AEB /* FoodsCategoriseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodsCategoriseCollectionViewCell.swift; sourceTree = "<group>"; };
+		52AEC9EC1FE25B3000FC1C1C /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		52B98FA31F8A0AA30020ABC9 /* DetailsNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsNewsViewController.swift; sourceTree = "<group>"; };
+		52BF213F1F94A46F0034830B /* CookingTrainingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingTrainingViewController.swift; sourceTree = "<group>"; };
+		52BF21411F94A4950034830B /* CookingTrainingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingTrainingTableViewCell.swift; sourceTree = "<group>"; };
+		52CCA1A91F8577B700D72E05 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		52CCA1AB1F85782600D72E05 /* CartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
+		52CCA1AE1F857D0200D72E05 /* ProductObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductObject.swift; sourceTree = "<group>"; };
+		52CCA1B01F857D5000D72E05 /* CartManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManger.swift; sourceTree = "<group>"; };
+		52CCA1B21F857D9800D72E05 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		52DCD00C1FC049210010C39E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		52DCD2F41FE6E49300CA251E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		52E2C7B9207CF0D000B44B70 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		52F7F64A1FE65F4A000A5E21 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		52FCD225208604FD007241E0 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		52FF6BAD1FE8004B00B51FBA /* EnterCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterCodeViewController.swift; sourceTree = "<group>"; };
+		9E0B819429ED9F2C46E617E7 /* Pods-StoreRestaurant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoreRestaurant.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StoreRestaurant/Pods-StoreRestaurant.debug.xcconfig"; sourceTree = "<group>"; };
+		9F00351420C085B100FA8642 /* CVVNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVVNumberViewController.swift; sourceTree = "<group>"; };
+		9F183C3420BAD95200134EA0 /* AddValidCCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddValidCCViewController.swift; sourceTree = "<group>"; };
+		9FA1480C20B986A9005A9C15 /* kredit front.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kredit front.ttf"; sourceTree = "<group>"; };
+		9FA1480E20B993AD005A9C15 /* kredit back.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kredit back.ttf"; sourceTree = "<group>"; };
+		9FA1481220B99A49005A9C15 /* kredit.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = kredit.ttf; sourceTree = "<group>"; };
+		9FB4F73320B6DA0A00D963F6 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		9FCDC367222EB3B3001750A4 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		9FDD1E0420BA8333006AA2F1 /* OCRAEXT.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = OCRAEXT.TTF; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52AEB9941F84F2FC00487AEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52AEB9B01F84F3B600487AEB /* MapKit.framework in Frameworks */,
+				CDF0A6C74A9A399D9E3DECCD /* Pods_StoreRestaurant.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52AEB98E1F84F2FC00487AEB = {
+			isa = PBXGroup;
+			children = (
+				9F7CF11A228FBFE1007C20E7 /* Fonts */,
+				9F73CBE4228D715800E3A7CA /* Service */,
+				52CCA1AD1F857CBC00D72E05 /* Model */,
+				52AEB9B61F85089E00487AEB /* View */,
+				52AEB9B11F84F3DD00487AEB /* Controller */,
+				52AEB9991F84F2FC00487AEB /* StoreRestaurant */,
+				52AEB9981F84F2FC00487AEB /* Products */,
+				52AEB9AE1F84F3B600487AEB /* Frameworks */,
+				68D261F1CD7BD44449816A6B /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		52AEB9981F84F2FC00487AEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52AEB9971F84F2FC00487AEB /* StoreRestaurant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52AEB9991F84F2FC00487AEB /* StoreRestaurant */ = {
+			isa = PBXGroup;
+			children = (
+				52AEB99A1F84F2FC00487AEB /* AppDelegate.swift */,
+				52AEB9A01F84F2FC00487AEB /* Main.storyboard */,
+				52AEB9A31F84F2FC00487AEB /* Assets.xcassets */,
+				52AEB9A51F84F2FC00487AEB /* LaunchScreen.storyboard */,
+				52DCD00C1FC049210010C39E /* GoogleService-Info.plist */,
+				52AEB9A81F84F2FC00487AEB /* Info.plist */,
+			);
+			path = StoreRestaurant;
+			sourceTree = "<group>";
+		};
+		52AEB9AE1F84F3B600487AEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52AEB9AF1F84F3B600487AEB /* MapKit.framework */,
+				458DB7F132E361CE55700969 /* Pods_StoreRestaurant.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52AEB9B11F84F3DD00487AEB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				52AEB9B21F84F3FB00487AEB /* HomeTableViewController.swift */,
+				52AEB9B41F85089500487AEB /* FoodsCategoriseCollectionViewController.swift */,
+				521694811F8514EA006AC1D4 /* FoodsTableViewController.swift */,
+				521694851F8518E0006AC1D4 /* DetailsFoodViewController.swift */,
+				52CCA1A91F8577B700D72E05 /* CartViewController.swift */,
+				525100B71F8771AF00A5601E /* NewsViewController.swift */,
+				52B98FA31F8A0AA30020ABC9 /* DetailsNewsViewController.swift */,
+				52BF213F1F94A46F0034830B /* CookingTrainingViewController.swift */,
+				52A910E31F99EC7600EF6BB9 /* CookingTrainingDetailsTableViewController.swift */,
+				52F7F64A1FE65F4A000A5E21 /* AccountViewController.swift */,
+				52DCD2F41FE6E49300CA251E /* SignUpViewController.swift */,
+				52AEC9EC1FE25B3000FC1C1C /* SignInViewController.swift */,
+				52FF6BAD1FE8004B00B51FBA /* EnterCodeViewController.swift */,
+				524EC07A1FE8FB1B00C23CAA /* ForgotPasswordViewController.swift */,
+				52E2C7B9207CF0D000B44B70 /* ProfileTableViewController.swift */,
+				52FCD225208604FD007241E0 /* EditProfileViewController.swift */,
+				9FB4F73320B6DA0A00D963F6 /* TabBarViewController.swift */,
+				9F183C3420BAD95200134EA0 /* AddValidCCViewController.swift */,
+				9F00351420C085B100FA8642 /* CVVNumberViewController.swift */,
+				9FCDC367222EB3B3001750A4 /* ChangePasswordViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		52AEB9B61F85089E00487AEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52AEB9B81F8508D400487AEB /* FoodsCategoriseCollectionViewCell.swift */,
+				521694831F8515C3006AC1D4 /* FoodsTableViewCell.swift */,
+				52CCA1AB1F85782600D72E05 /* CartTableViewCell.swift */,
+				525100B91F87720700A5601E /* NewsTableViewCell.swift */,
+				52BF21411F94A4950034830B /* CookingTrainingTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52CCA1AD1F857CBC00D72E05 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52CCA1AE1F857D0200D72E05 /* ProductObject.swift */,
+				52CCA1B01F857D5000D72E05 /* CartManger.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		68D261F1CD7BD44449816A6B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E0B819429ED9F2C46E617E7 /* Pods-StoreRestaurant.debug.xcconfig */,
+				2427E8E568FA32D4998C48A3 /* Pods-StoreRestaurant.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F73CBE4228D715800E3A7CA /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				528164A3208DF5900017797A /* GMStepper.swift */,
+				52A854072055D4190090B799 /* DTTextField.swift */,
+				52CCA1B21F857D9800D72E05 /* Constant.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		9F7CF11A228FBFE1007C20E7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9FA1480C20B986A9005A9C15 /* kredit front.ttf */,
+				9FA1480E20B993AD005A9C15 /* kredit back.ttf */,
+				9FA1481220B99A49005A9C15 /* kredit.ttf */,
+				9FDD1E0420BA8333006AA2F1 /* OCRAEXT.TTF */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52AEB9961F84F2FC00487AEB /* StoreRestaurant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52AEB9AB1F84F2FC00487AEB /* Build configuration list for PBXNativeTarget "StoreRestaurant" */;
+			buildPhases = (
+				E5AA4974C02E409D80AE4F4F /* [CP] Check Pods Manifest.lock */,
+				52AEB9931F84F2FC00487AEB /* Sources */,
+				52AEB9941F84F2FC00487AEB /* Frameworks */,
+				52AEB9951F84F2FC00487AEB /* Resources */,
+				089033D20EE6D29AB2F99B31 /* [CP] Embed Pods Frameworks */,
+				03A3B57AFAF24EF6CDAB9AAB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StoreRestaurant;
+			productName = StoreRestaurant;
+			productReference = 52AEB9971F84F2FC00487AEB /* StoreRestaurant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52AEB98F1F84F2FC00487AEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "HabibMacBook Pro";
+				TargetAttributes = {
+					52AEB9961F84F2FC00487AEB = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0930;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 52AEB9921F84F2FC00487AEB /* Build configuration list for PBXProject "StoreRestaurant" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52AEB98E1F84F2FC00487AEB;
+			productRefGroup = 52AEB9981F84F2FC00487AEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52AEB9961F84F2FC00487AEB /* StoreRestaurant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52AEB9951F84F2FC00487AEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA1480D20B98DCB005A9C15 /* kredit front.ttf in Resources */,
+				52DCD00E1FC0492D0010C39E /* GoogleService-Info.plist in Resources */,
+				9FA1481020B99634005A9C15 /* kredit back.ttf in Resources */,
+				9FA1480F20B994F9005A9C15 /* Info.plist in Resources */,
+				52AEB9A71F84F2FC00487AEB /* LaunchScreen.storyboard in Resources */,
+				9FDD1E0520BA84FC006AA2F1 /* OCRAEXT.TTF in Resources */,
+				52AEB9A41F84F2FC00487AEB /* Assets.xcassets in Resources */,
+				52AEB9A21F84F2FC00487AEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03A3B57AFAF24EF6CDAB9AAB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StoreRestaurant/Pods-StoreRestaurant-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		089033D20EE6D29AB2F99B31 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-StoreRestaurant/Pods-StoreRestaurant-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StoreRestaurant/Pods-StoreRestaurant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5AA4974C02E409D80AE4F4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StoreRestaurant-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52AEB9931F84F2FC00487AEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52AEC9ED1FE25B3000FC1C1C /* SignInViewController.swift in Sources */,
+				528164A4208DF5910017797A /* GMStepper.swift in Sources */,
+				52AEB9B51F85089500487AEB /* FoodsCategoriseCollectionViewController.swift in Sources */,
+				52A910E41F99EC7600EF6BB9 /* CookingTrainingDetailsTableViewController.swift in Sources */,
+				9FB4F73420B6DA0A00D963F6 /* TabBarViewController.swift in Sources */,
+				521694841F8515C3006AC1D4 /* FoodsTableViewCell.swift in Sources */,
+				525100BA1F87720700A5601E /* NewsTableViewCell.swift in Sources */,
+				52CCA1AA1F8577B700D72E05 /* CartViewController.swift in Sources */,
+				52E2C7BA207CF0D000B44B70 /* ProfileTableViewController.swift in Sources */,
+				52DCD2F51FE6E49300CA251E /* SignUpViewController.swift in Sources */,
+				52B98FA41F8A0AA30020ABC9 /* DetailsNewsViewController.swift in Sources */,
+				9F183C3520BAD95200134EA0 /* AddValidCCViewController.swift in Sources */,
+				525100B81F8771AF00A5601E /* NewsViewController.swift in Sources */,
+				52AEB9B31F84F3FB00487AEB /* HomeTableViewController.swift in Sources */,
+				52CCA1AC1F85782600D72E05 /* CartTableViewCell.swift in Sources */,
+				9F00351520C085B100FA8642 /* CVVNumberViewController.swift in Sources */,
+				52AEB99B1F84F2FC00487AEB /* AppDelegate.swift in Sources */,
+				52BF21421F94A4950034830B /* CookingTrainingTableViewCell.swift in Sources */,
+				52BF21401F94A46F0034830B /* CookingTrainingViewController.swift in Sources */,
+				52CCA1B31F857D9800D72E05 /* Constant.swift in Sources */,
+				52FCD226208604FD007241E0 /* EditProfileViewController.swift in Sources */,
+				52CCA1B11F857D5000D72E05 /* CartManger.swift in Sources */,
+				52AEB9B91F8508D400487AEB /* FoodsCategoriseCollectionViewCell.swift in Sources */,
+				52FF6BAE1FE8004B00B51FBA /* EnterCodeViewController.swift in Sources */,
+				524EC07B1FE8FB1B00C23CAA /* ForgotPasswordViewController.swift in Sources */,
+				52F7F64B1FE65F4A000A5E21 /* AccountViewController.swift in Sources */,
+				521694821F8514EA006AC1D4 /* FoodsTableViewController.swift in Sources */,
+				52A854082055D4190090B799 /* DTTextField.swift in Sources */,
+				52CCA1AF1F857D0200D72E05 /* ProductObject.swift in Sources */,
+				521694861F8518E0006AC1D4 /* DetailsFoodViewController.swift in Sources */,
+				9FCDC368222EB3B3001750A4 /* ChangePasswordViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		52AEB9A01F84F2FC00487AEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52AEB9A11F84F2FC00487AEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52AEB9A51F84F2FC00487AEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52AEB9A61F84F2FC00487AEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52AEB9A91F84F2FC00487AEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52AEB9AA1F84F2FC00487AEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52AEB9AC1F84F2FC00487AEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E0B819429ED9F2C46E617E7 /* Pods-StoreRestaurant.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3XP86EWL2;
+				INFOPLIST_FILE = StoreRestaurant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.habib.StoreRestaurant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52AEB9AD1F84F2FC00487AEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2427E8E568FA32D4998C48A3 /* Pods-StoreRestaurant.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3XP86EWL2;
+				INFOPLIST_FILE = StoreRestaurant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.habib.StoreRestaurant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52AEB9921F84F2FC00487AEB /* Build configuration list for PBXProject "StoreRestaurant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52AEB9A91F84F2FC00487AEB /* Debug */,
+				52AEB9AA1F84F2FC00487AEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52AEB9AB1F84F2FC00487AEB /* Build configuration list for PBXNativeTarget "StoreRestaurant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52AEB9AC1F84F2FC00487AEB /* Debug */,
+				52AEB9AD1F84F2FC00487AEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52AEB98F1F84F2FC00487AEB /* Project object */;
+}
